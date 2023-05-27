@@ -1,0 +1,19 @@
+{
+  "name": "gorest-api-test-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test --project=Chromium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.1",
+    "@playwright/test": "^1.34.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
